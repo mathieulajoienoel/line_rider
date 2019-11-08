@@ -346,7 +346,6 @@ function Player(master, id, color, ownedColor, position, isPlayer = false, behav
     self.act(e);
   },
   this.act = function(e){
-    // Here, this is the game, which has the event.
     switch (e.keyCode) {
       case PLAYERCONTROLS[this.id - 1].up:
         // up
